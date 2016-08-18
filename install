@@ -1,0 +1,3 @@
+q(){ curl -sSL -O 'https://github.com/alice0meta/scratch/raw/master/Hex%20Input%20%2B/'"$1"; }
+cd ~/Library/'Keyboard Layouts'
+q hex2.keylayout; q hex2.icns
