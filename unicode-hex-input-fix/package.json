@@ -1,0 +1,11 @@
+{
+  "name": "unicode-hex-input-fix",
+  "version": "1.0.0",
+  "description": "featurewise union of keyboard layouts {default}, {unicode hex input}",
+  "author": "Comely Naiad <comely.naiad@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alice0meta/misc.git"
+  },
+  "dependencies": {}
+}

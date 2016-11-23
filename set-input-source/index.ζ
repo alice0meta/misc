@@ -1,0 +1,8 @@
+#!/usr/bin/env ζ
+module.exports = path=>{
+	name ← φ(φ(path).TMP_children().filter(ι=> ι.re`\.keylayout$`)[0]).text.re`<keyboard.*name="(.*?)"`[1]
+	shᵥ`${__dirname}/main`+'' === name || (
+		shᵥ`cd ${path}; cp *.{icns,keylayout} ~/'Library/Keyboard Layouts'`,
+		shᵥ`${__dirname}/main -s ${name}`
+		)
+	}
